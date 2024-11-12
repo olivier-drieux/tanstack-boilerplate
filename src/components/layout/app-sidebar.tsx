@@ -109,7 +109,7 @@ function AppSidebar(props: ComponentProps<typeof Sidebar>) {
       </SidebarHeader>
       <SidebarContent>
         <ScrollArea>
-          <SidebarNavBuilder {...{ navigation }} />
+          <SidebarNavBuilder navigation={navigation} />
         </ScrollArea>
       </SidebarContent>
       <SidebarFooter>
